@@ -2,8 +2,8 @@
 Color Palette
 main background: #FAB67D;
 titles: #8F70FA;
+text link: #CAF3F8
 #FAD889
-#A2ECFA
 #BDB195
 */
 
@@ -15,8 +15,34 @@ titles: #8F70FA;
 }
 
 h1 {
+    font-size: 40px;
     color: #8F70FA;
     text-align: center;
+}
+
+.back-link {
+    display: block;
+    text-align: right;
+    
+}
+.back-link button {
+    font-size: 20px;
+    color: #FAD889;
+    background-color: #BDB195;
+}
+
+.back-link button a {
+    color: #FAD889;
+    background-color: #BDB195;
+}
+
+h2, h3 {
+    color: #8F70FA;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 17px;
 }
 
 .main-image {
