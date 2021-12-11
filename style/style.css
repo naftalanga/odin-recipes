@@ -10,15 +10,35 @@ titles: #8F70FA;
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #FAB67D;
+    color: #CAF3F8;
+    font-weight: bold;
+}
+
+h1 {
+    color: #8F70FA;
     text-align: center;
 }
 
 .main-image {
     height: auto;
     width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {
-    color: #8F70FA;
+.main-links-table {
+    text-align: center;
 }
+
+.main-links-table ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
 
