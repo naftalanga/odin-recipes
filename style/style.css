@@ -1,0 +1,24 @@
+/*
+Color Palette
+main background: #FAB67D;
+titles: #8F70FA;
+#FAD889
+#A2ECFA
+#BDB195
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #FAB67D;
+    text-align: center;
+}
+
+.main-image {
+    height: auto;
+    width: 500px;
+}
+
+h1 {
+    color: #8F70FA;
+}
+
